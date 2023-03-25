@@ -1,6 +1,6 @@
 import React from "react";
 import { Page, Text, Image, Document, StyleSheet } from "@react-pdf/renderer";
-import one from "../data/one.png";
+
 
 
 
@@ -74,13 +74,12 @@ const styles = StyleSheet.create({
               `${pageNumber} / ${totalPages}`
             }
           />
+
+         <div className="flex justify-center rounded">
+         <button className="bg-gray-600 h-50w-70 rounded m-14 text-white p-7">Download Pdf</button>
+         </div>
         </Page>
       </Document>
-
-
-      
-
-      
 
     </>  
     );

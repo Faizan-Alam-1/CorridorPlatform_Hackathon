@@ -34,8 +34,6 @@ const table= () => {
 
               <p className='pl-[3rem] pt-3 text-end'>{order.card_interest_rate}</p>
 
-
-
             </li>
            ))}
          </ul>

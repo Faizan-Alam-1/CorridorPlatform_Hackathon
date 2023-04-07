@@ -5,6 +5,7 @@ import Link from 'next/link'
 import {RxSketchLogo , RxDashboard ,  RxPerson } from 'react-icons/rx'
 import { FiSettings } from 'react-icons/fi'
 import { BsTable , BsGraphUp } from "react-icons/bs";
+import { BsFillCloudDownloadFill } from "react-icons/bs";
 
 const Sidebar = ({children}) => {
   return (
@@ -47,7 +48,7 @@ const Sidebar = ({children}) => {
 
                 <Link href='/pdf'>
                     <div className='bg-gray-600 cursor-pointer hover:bg-gray-500 text-white p-3 rounded-lg inline-block my-2'>
-                        < FiSettings size={20}/>
+                        < BsFillCloudDownloadFill size={20}/>
                     </div>
                 </Link>
 
